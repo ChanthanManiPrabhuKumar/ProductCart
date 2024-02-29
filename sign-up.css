@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: outfit;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(90deg, rgb(95, 186, 231), rgb(244, 154, 0));
+    background-attachment: fixed;
+}
+.container2{
+    background: #f8f8f8;
+    border-radius: 5px;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    /* border: 2px solid black; */
+    display: flex;
+    border-radius: 10px;
+    /* box-shadow: 8px 8px 5px rgb(67, 51, 71); */
+}
+
+.right-container{
+    /* margin-left: 20%; */
+    border-left: 3px solid black;
+    /* border-radius: 0 5px 5px 0; */
+    height: 500px;
+    padding: 50px 0 50px 50px;
+    line-height: 30px;
+    text-align: left;
+    position: relative;
+}
+.left-container{
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+}
+.container2 .right-container{
+    justify-content: center;
+}
+.right-container h1 {
+    text-align: center;
+}
+.right-container p{
+    text-align: center;
+}
+.pleaselogin{
+    margin-bottom: 20px;
+}
+.right-container .input input{
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 450px;
+}
+.check{
+    display: flex;
+    gap: 38%;
+}
+.check .checkbox1{
+    display: flex;
+    text-align: left;
+}
+.check .checkbox2 a{
+    text-decoration: none;
+}
+.input p{
+    margin-top: 14px;
+}
+.left-container h1,p{
+    text-align: center;
+}
+.container2 .left-container h1{
+    margin-top: 20px;
+}
+.loginbutton button{
+    position: absolute;
+    width: 90%;
+    padding: 15px;
+    text-align: center;
+    margin-top: 25px;
+    background: rgb(74, 74, 224);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* .container .left-container .img1{
+    transform: rotate(180deg);
+    background-size: cover;
+    
+} */
+.container2 .left-container{
+    background-image: url(./assets/down5.png);
+    background-size: cover;
+    color: white;
+}
+.sign-up{
+    margin-top: 40%;
+    text-align: center;
+    font-size: 32px;
+}
+.sign-up a{
+    text-decoration: none;
+    color: black;
+}
